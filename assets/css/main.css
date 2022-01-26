@@ -1,7 +1,10 @@
 html {
    font-size: 18px;
    scroll-behavior: smooth;
+  font-family: 'Karla', sans-serif;
+   
 }
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
 .header {
    background-color: #fff;
