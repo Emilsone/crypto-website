@@ -69,16 +69,27 @@ html {
 }
 
 .hero-section {
-   background-color: #88A8BD;
-   background-image: url('../images/hero\ image.svg');
-   background-position: center right;
+    background-color: #000000;
+   background-blend-mode: soft-light;
+   background-image: url('../images/contact-page.jpeg');
+   /* background-position: center right; */
+   background-size: cover;
    background-repeat: no-repeat;
    height: 88vh;
    color: #fff;
 }
-
+.contact-section {
+   background-color: #000000;
+   background-blend-mode: soft-light;
+   background-image: url('../images/contact-page.jpeg');
+   /* background-position: center right; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 88vh;
+   color: #fff;
+}
 .btn-wine {
-   background-color: #F43757;
+   background-color: #008F41;
    color: #fff;
    border-radius: 30px;
    transition: ease-in .3s;
@@ -86,7 +97,7 @@ html {
 }
 
 .btn-wine:hover {
-   background-color: #dc324e;
+   background-color: #008F41;
    color: #fff;
 }
 
@@ -263,10 +274,10 @@ footer {
    }
     .footer-10 .list-unstyled li a:hover {
       color: #000000; }
-  .footer-10 .con-info .icon {
+  .foo .con-info .icon {
     width: 50px;
     height: 50px;
-    background: #1089ff;
+    background: #008F41;
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 10px; }
@@ -308,7 +319,7 @@ footer {
       width: 130px;
       height: 52px;
       font-size: 16px;
-      background: #1089ff !important;
+      background: #008F41 !important;
       border: none;
       border-radius: 0; }
       .footer-10 .subscribe-form .form-group .submit:hover, .footer-10 .subscribe-form .form-group .submit:focus {
