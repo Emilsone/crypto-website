@@ -106,6 +106,13 @@ body{
    transition: ease-in .3s;
 
 }
+.btn-login {
+   background-color: #008F41;
+   color: #fff;
+   border-radius: 30px;
+   transition: ease-in .3s;
+
+}
 
 .btn-wine:hover {
    background-color: #008F41;
@@ -254,6 +261,52 @@ flex-direction: column;
 
 
 /* contactpage--------style */
+.contact-box {
+	color: #000000;
+	display: inline-block;
+	text-align: left;
+}
+
+
+.contact-box ul li {
+	border-bottom: 1px solid #008F41;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.contact-box ul li:last-child {
+	border-bottom: none;
+}
+
+.contact-box ul li .contact-thumb {
+	float: left;
+	margin-right: 10px;
+}
+
+.contact-box .contact-box-detail {
+	margin-left: 50px;
+}
+
+.contact-box .contact-title {
+	font-size: 16px;
+	margin-bottom: 0;
+}
+
+ul{
+list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	border: none;
+	outline: none;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
 .block-23 ul {
   padding: 0; }
   .block-23 ul li, .block-23 ul li > a {
